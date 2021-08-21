@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.582);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -245,14 +245,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #37517e;
+  color: #ffffff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #47b2e4;
+  color: #e4d947;
   text-decoration: none;
 }
 
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 58, 90, 0.6);
+  background: rgba(0, 0, 0, 0.445);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -721,15 +721,17 @@ section {
             width: 100%;
         }
         .table-wrapper:before{
-            content: "Scroll horizontally >";
+            content: "Scroll horizontally ";
             display: block;
             text-align: right;
             font-size: 11px;
             color: white;
             padding: 0 0 10px;
+
         }
         .fl-table thead, .fl-table tbody, .fl-table thead th {
             display: block;
+
         }
         .fl-table thead th:last-child{
             border-bottom: none;
@@ -744,15 +746,16 @@ section {
         }
         .fl-table td, .fl-table th {
             padding: 20px .625em .625em .625em;
-            height: 60px;
+            height: 90px;
             vertical-align: middle;
             box-sizing: border-box;
             overflow-x: hidden;
             overflow-y: auto;
-            width: 120px;
-            font-size: 13px;
+            width: 100px;
+            font-size: 12px;
             text-overflow: ellipsis;
         }
+
         .fl-table thead th {
             text-align: left;
             border-bottom: 1px solid #f7f7f9;
@@ -767,7 +770,7 @@ section {
             background: transparent;
         }
         .fl-table tr td:nth-child(odd) {
-            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.226);
             border-right: 1px solid #E6E4E4;
         }
         .fl-table tr td:nth-child(even) {
@@ -792,8 +795,9 @@ section {
       -ms-border-radius:5px;
       -o-border-radius:5px;
       border: none;
-      font-size: 23px;
+      font-size: 18px;
       outline: none;
+      padding: 5px;
 }
     
     .option {
